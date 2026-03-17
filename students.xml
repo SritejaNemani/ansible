@@ -1,0 +1,42 @@
+<students>
+    <student_1>
+        <namne>Sri</name>
+        <dob>14-08-1999</dob>
+        <addresses>
+            <mailing_address>
+                <house_number>164</house_number>
+                <street_name>Deerfox Drive</street_name>
+                <city>Nepean</city>
+                <province>ON</province>
+                <pin>K2J4W6</pin>
+            </mailing_address>
+            <perm_address>
+                <house_number>164</house_number>
+                <street_name>Deerfox Drive</street_name>
+                <city>Nepean</city>
+                <province>ON</province>
+                <pin>K2J4W6</pin>
+            </perm_address>
+        </addresses>
+    </student_1>
+    <student_2>
+        <namne>Sri</name>
+        <dob>14-08-1999</dob>
+        <addresses>
+            <mailing_address>
+                <house_number>164</house_number>
+                <street_name>Deerfox Drive</street_name>
+                <city>Nepean</city>
+                <province>ON</province>
+                <pin>K2J4W6</pin>
+            </mailing_address>
+            <perm_address>
+                <house_number>164</house_number>
+                <street_name>Deerfox Drive</street_name>
+                <city>Nepean</city>
+                <province>ON</province>
+                <pin>K2J4W6</pin>
+            </perm_address>
+        </addresses>
+    </student_2>
+</students>

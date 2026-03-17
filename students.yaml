@@ -1,0 +1,28 @@
+- name: "Sri"
+  dob: "14-08-1999"
+  cell: 6133161821
+  addresses:
+  - type: current
+    house_number: 166
+    street_name: "Deerfox Drive"
+    city: Ottawa
+
+  - type: cpermt
+    house_number: 166
+    street_name: "Deerfox Drive"
+    city: Ottawa
+
+- name: "Sri"
+  dob: "14-08-1999"
+  cell: 6133161821
+  addresses:
+  - type: current
+    house_number: 166
+    street_name: "Deerfox Drive"
+    city: Ottawa
+
+  - type: cpermt
+    house_number: 166
+    street_name: "Deerfox Drive"
+    city: Ottawa
+    

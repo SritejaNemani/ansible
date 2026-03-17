@@ -1,0 +1,44 @@
+{
+    "students": [
+    {
+        "name": "Sri",
+        "dob": "14-08-1999",
+        "addresses": [
+            {
+                "type": "perm",
+                "houseNumber": 164,
+                "street_name": "Deerfox Drive",
+                "City": "Ottawa"
+            },
+            {
+                "type": "present",
+                "houseNumber": 164,
+                "street_name": "Deerfox Drive",
+                "City": "Ottawa"
+            }
+
+        ],
+        "skills": ["java", "devops", "cloud"]
+    },
+        {
+        "name": "Sri",
+        "dob": "14-08-1999",
+        "addresses": [
+            {
+                "type": "perm",
+                "houseNumber": 164,
+                "street_name": "Deerfox Drive",
+                "City": "Ottawa"
+            },
+            {
+                "type": "present",
+                "houseNumber": 164,
+                "street_name": "Deerfox Drive",
+                "City": "Ottawa"
+            }
+
+        ],
+        "skills": ["java", "devops", "cloud"]
+    }
+    ]
+}
