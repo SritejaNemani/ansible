@@ -6,9 +6,9 @@
   vars_files:
     - course.yml
   vars_prompt:
-    -name: NAME
-    prompt: Please enter Name from Prompt
-    private: false
+    - name: NAME 
+      prompt: Please enter Name from Prompt
+      private: false
   tasks:
     - name: print name
       vars:
