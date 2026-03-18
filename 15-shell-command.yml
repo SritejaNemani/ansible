@@ -26,4 +26,4 @@
 
   - name: print password output of command module
     ansible.builtin.debug:
-      msg: "{{ passwd_output_output }}"
+      msg: "{{ passwd_output }}"
