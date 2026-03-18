@@ -1,10 +1,11 @@
-- name: demo on loops
+- name: install packages
   hosts: local
   connection: local
+  become: yes
   tasks: 
-  - name: install packages
+  - name: install package
     ansible.builtin.package:
-      name: {{ item }}
+      name: "{{ item }}"
       state: present
     loop:
     - mysql
