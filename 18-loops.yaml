@@ -5,8 +5,8 @@
   tasks: 
   - name: install package
     ansible.builtin.package:
-      name: "{{ item.namne }}"
-      state: "{{item.state}}"
+      name: "{{ item.name }}"
+      state: "{{ item.state }}"
     loop:
     - { name: "mysql", state: "absent"}
     - { name: "nginx", state: "present"}        # { all together lines 11,12 and 13 is a list of map - so the datatype of the overall loop is list becase each line starts with hyphens '-'
