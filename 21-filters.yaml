@@ -1,0 +1,13 @@
+- name: demo on filters
+  hosts: local
+  connection: local
+  vars: 
+    COURSE: "DevOps with Ansible"
+  tasks: 
+  - name: to upper case using filter
+    ansible.builtin.debug:
+      msg: "{{ COURSE | upper }}"
+  
+  - name: to lower case using filter
+    ansible.builtin.debug:
+      msg: "{{ COURSE | lower }}"
