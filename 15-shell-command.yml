@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   tasks: 
-  - name: command module test
+  - name: shell module test using piping
     # ansible.builtin.command: cat /etc/passwd | grep root
     ansible.builtin.shell: cat /etc/passwd | grep root
     register: users_output
@@ -11,7 +11,7 @@
     ansible.builtin.debug:
       msg: "{{ users_output }}"
 
-  - name: command module test
+  - name: shell module test using redirection
     # ansible.builtin.command: cat /etc/passwd | grep root
     ansible.builtin.shell: ls -ltr > files.txt
     register: files_output
@@ -19,3 +19,11 @@
   - name: print files output
     ansible.builtin.debug:
       msg: "{{ files_output }}"
+
+  - name: command module test using simple print
+    ansible.builtin.command: cat /etc/passwd 
+    register: passwd_output
+
+  - name: print password output of command module
+    ansible.builtin.debug:
+      msg: "{{ passwd_output_output }}"
