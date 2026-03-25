@@ -1,7 +1,7 @@
 - name: check idempotent
-  host: local
-  connection: local
   become: yes
+  hosts: local
+  connection: local
   tasks: 
   - name: user creation
     ansible.builtin.user:
