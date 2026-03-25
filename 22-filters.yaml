@@ -3,9 +3,13 @@
   connection: local
   vars: 
     myIp: "246.567.890.287"
+    myIp1: "192.23.89.123"
   tasks: 
-  - name: check ipv4
+  - name: check ipv4 - myIp
     ansible.builtin.debug:
       msg: " {{ myIp | ansible.utils.ipv4 }}"
-  
+
+  - name: check ipv4 - myIp1
+    ansible.builtin.debug:
+      msg: " {{ myIp1 | ansible.utils.ipv4 }}"
  
