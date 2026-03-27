@@ -6,3 +6,6 @@
   - name: user creation
     ansible.builtin.user:
       name: sri
+#if executed twice - without any rc (error handeling) the task still skips - as the Ansible is Idempotent and we have used a bulitin collection 
+#Ansiblel is idempotenmt only if we use ansible collections
+# id collectiuons are availavble use collecton  

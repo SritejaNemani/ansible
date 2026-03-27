@@ -12,6 +12,10 @@
     ansible.builtin.debug: 
       msg: "{{ user_output }}"
 
-  - name: create
+  - name: create user
     ansible.builtin.command: useradd roboshop
     when: user_output.rc != 0 
+
+    # if i execute this twice - create user task skips in 2nd time - as the rc = 0, 
+    #here when using the command module idempotency isn't automatically applied(Ansible is not idempotent) - it has to be handled manually
+    #Ansibl;el is idempotenmt only if we use ansible collections
